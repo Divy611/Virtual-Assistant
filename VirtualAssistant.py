@@ -94,7 +94,7 @@ if __name__ == '__main__':
                     server = smtplib.SMTP('smtp.gmail.com', 587)
                     server.ehlo()
                     server.starttls()
-                    server.login("parikhdivy03@gmail.com", '06nov2003')
+                    server.login("parikhdivy03@gmail.com", '')
                     server.sendmail('parikhdivy03@gmail.com',"pandey.aditya400@gmail.com", content)
                     server.close()
                     speak('Email sent!')
